@@ -49,11 +49,7 @@ void loop() {
     // the analog read happens every row - can move based on need of refresh
     readPins();
   }
-  int tick = 0;
-  while(tick < 30000 && range == average) {
-    readPins();
-    tick++;
-  }
+  delay(3000);
 }
 
 // Altered from Arduino tutorial --> https://www.arduino.cc/en/Tutorial/Smoothing
