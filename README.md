@@ -4,9 +4,12 @@
 Truchet tiles are square tiles decorated with patterns that are not rotationally symmetric. When placed within a square tiling of the plane, they can form varied patterns, and the orientation of each tile can be used to visualize information associated with the tile's position within the tiling.
 
 Truchet tiles were first described in a 1704 memoir by Sébastien Truchet entitled "Mémoire sur les combinaisons", and were popularized in 1987 by Cyril Stanley Smith.
-
-<img alt="Feather board running program" src="capture.jpg" style="display:inline-block" />
-<img alt="Example Truchet Tiles" src="screenshot.png" style="display:inline-block" />
+<div style="width:45%;display:inline-block">
+<img alt="Feather board running program" src="capture.jpg"/>
+</div>
+<div style="width:45%;display:inline-block">
+<img alt="Example Truchet Tiles" src="screenshot.png"/>
+</div>
 
 ## Board & Wiring
 
