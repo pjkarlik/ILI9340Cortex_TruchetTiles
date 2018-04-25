@@ -28,7 +28,7 @@ int w = 240 / range;            // the height in quadrant sizes
 float hr = range / 2;           // the offset based on quadrant size
 float df;                       // the difference float to render display
 
-int numReadings = 10;           // the sample index range for reading
+const int numReadings = 10;           // the sample index range for reading
 int readings[numReadings];      // the readings from the analog input
 int readIndex = 0;              // the index of the current reading
 int total = 0;                  // the running total
@@ -48,6 +48,11 @@ void loop() {
     }
     // the analog read happens every row - can move based on need of refresh
     readPins();
+  }
+  int tick = 0;
+  while(tick < 30000 && range == average) {
+    readPins();
+    tick++;
   }
 }
 
