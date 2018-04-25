@@ -1,3 +1,6 @@
+![arduino](https://img.shields.io/badge/Arudino-1.8.5-brightgreen.svg) ![Adafruit](https://img.shields.io/badge/adafruit->.<-e95dff.svg) ![TFT LCD](https://img.shields.io/badge/TFT-LCD-blue.svg)
+
+
 # Truchet Tiles.
 *Arduino | Feather M0 Cortex & ILI9340 Breakout board*
 
